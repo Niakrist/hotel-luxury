@@ -64,6 +64,23 @@ img {
   margin: 0 auto;
 }
 
+.title-h2 {
+  margin-bottom: 16px;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 1.22;
+  color: #353637;
+}
+
+.title-text {
+  font-family: 'Average Sans';
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.02em;
+  color: #959595;
+}
+
 /* HEADER */
 /* HEADER */
 /* HEADER */
@@ -417,7 +434,6 @@ img {
   border-radius: 50%;
 }
 
-
 .payment {
 
   position: absolute;
@@ -458,4 +474,103 @@ img {
   font-weight: 400;
   font-size: 10px;
   color: #565656;
+}
+
+/* check */
+/* check */
+/* check */
+
+.check {
+  padding: 116px 0;
+}
+
+.check__wrapper {
+  display: flex;
+  gap: 68px;
+}
+
+.check__img {
+  height: 523px;
+  background-color: #B1BED0;
+  position: relative;
+}
+.check__img img {
+  padding-top: 89px;
+}
+
+
+.check__title {
+  max-width: 452px;
+  margin: 0 auto 46px;
+  text-align: center;
+}
+
+.check__form {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* form */
+
+.form__check {
+  width: 340px;
+  /* border: 1px solid black; */
+}
+
+.form__check-text {
+  margin-bottom: 10px;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: #222426;
+  text-transform: uppercase;
+}
+
+.form__check-label {
+  margin-bottom: 30px;
+  padding: 12px 15px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ABABAB;
+}
+
+.form__check-input {
+  /* width: 100%; */
+  border: none;
+  outline: none;
+}
+
+.form__check-input::placeholder {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: #636461;
+}
+
+.guests {
+  padding: 19px 15px;
+}
+
+
+
+.form__check-label img {
+  cursor: pointer;
+}
+
+.form__check-label-btn {
+  width: 100%;
+  padding: 19px 0;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid #596B86;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.form__check-label-btn:hover {
+  background-color:  rgba(201, 214, 233, 0.87);
 }
