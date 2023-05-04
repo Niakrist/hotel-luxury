@@ -574,3 +574,82 @@ img {
 .form__check-label-btn:hover {
   background-color:  rgba(201, 214, 233, 0.87);
 }
+
+
+/* room */
+/* room */
+/* room */ 
+
+.room {
+
+}
+
+.room__title {
+  margin: 0 auto 46px;
+  text-align: center;
+  max-width: 525px;
+}
+
+.room__title p {
+  margin: 0 auto;
+  max-width: 452px;
+}
+
+
+.room__items {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.room__item {
+  border-radius: 6px 6px 0px 0px;
+  flex: 1 1 350px;
+}
+.room__img {
+}
+.room__info {
+  padding: 24px 61px 24px 22px;
+  border: 1px solid #596B86;
+}
+.room__info-title {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 1;
+  color: #131313;
+}
+
+.room__icons-group {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.room__icon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.room__icon-text {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: #727272;
+}
+
+.room__price {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1;
+  color: #384D6C;
+}
+
+.room__price span {
+  /* display: inline-block; */
+  font-weight: 400;
+  font-size: 18px;
+  color: #585858;
+}
